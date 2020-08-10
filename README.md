@@ -1,5 +1,7 @@
 # SlackSlashCommandBackEnd
 
+## Objective [Phase 1]
+On typing '/hello' from a slack channel the web service responds with a message ":wave: Hello! Response from the Bolt Server"
 
 Slack:
 -----
