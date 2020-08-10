@@ -15,7 +15,7 @@ Webserver:
 --------
 1. Go to Run Configurations in intelliJ and update the environement variables.
 `SLACK_BOT_TOKEN`=xoxb-;`SLACK_SIGNING_SECRET`=xxxx
-2.Start the server by running the class `MyApp.java`
+2.Start the server by running the class `BackEndServiceForSlackSlashCommand.java`
 
 
 ngorK:
