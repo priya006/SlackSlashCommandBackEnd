@@ -32,4 +32,6 @@ How to Reconfigure Slash command (From Slack) Request Url with ngork  generated 
 2. paste  the 'Random' host generated in above **step 2.** Example: https://{random}.ngrok.io/slack/events
 4. Install App and click Reinstall App button
 
+Phase 2 - Make the backend to hit Jira REST API [WIP]
+
 
