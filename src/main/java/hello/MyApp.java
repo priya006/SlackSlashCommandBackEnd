@@ -4,22 +4,13 @@ import com.slack.api.bolt.App;
 import com.slack.api.bolt.AppConfig;
 import com.slack.api.bolt.jetty.SlackAppServer;
 
-
 public class MyApp {
-    public static void main(String[] args) throws Exception {
+    public static  void main(String[] args) throws Exception {
 
-        //export SLACK_BOT_TOKEN= "xoxb-your-token";
-        //manual slashcommand app , messagebot
-
-        //xoxb-404612894081-1310882225040-IB7ftXBmP2i56oFV0Zwrxtvj
-        //7e4cc308ccbb743582549125a17ed881 Signing Secret
-
+        AppConfig appConfig = new AppConfig();
         App app = new App();
-
-
-
         app.command("/hello", (req, ctx) -> {
-            return ctx.ack(":wave: Hello!");
+            return ctx.ack(":wave: Hello! Response from the Bolt Server");
         });
 
     SlackAppServer server = new SlackAppServer(app);
