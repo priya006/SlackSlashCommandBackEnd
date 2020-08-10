@@ -6,7 +6,7 @@ On typing `/hello` from a slack channel the web service responds with a message 
 Slack:
 -----
 1. https://api.slack.com/apps
-2. Click Message Bot
+2. Click Message Bot [Slack App created for this project]
 3. Get the 'Signing Secret'
 4. Reinstall app. Allow 'Messagebot' APP to access your workspace/Channel
 5. Select the 'MessageBot' Post in 'boltapp' channel
