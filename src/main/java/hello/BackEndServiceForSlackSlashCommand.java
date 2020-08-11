@@ -7,7 +7,7 @@ import com.slack.api.bolt.jetty.SlackAppServer;
 public class BackEndServiceForSlackSlashCommand {
     public static  void main(String[] args) throws Exception {
 
-        AppConfig appConfig = new AppConfig();
+
         App app = new App();
         app.command("/hello", (req, ctx) -> {
             return ctx.ack(":wave: Hello! Response from the Bolt Server");
