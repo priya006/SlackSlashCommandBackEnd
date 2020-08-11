@@ -1,7 +1,6 @@
 package hello;
 
 import com.slack.api.bolt.App;
-import com.slack.api.bolt.AppConfig;
 import com.slack.api.bolt.jetty.SlackAppServer;
 
 public class BackEndServiceForSlackSlashCommand {
